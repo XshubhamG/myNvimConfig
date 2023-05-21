@@ -36,10 +36,6 @@ opt.splitbelow = true
 -- vim.api.nvim_set_hl(0, 'Normal',{bg = 'none'})
 
 -- terminal
--- vim.cmd([[set shell=powershell
--- set shellcmdflag=-command
--- set shellquote=\"
--- set shellxquote=]])
 opt.shell='pwsh'
 opt.shellcmdflag='-command'
 opt.shellquote= '\"'

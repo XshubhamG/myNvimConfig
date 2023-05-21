@@ -50,7 +50,7 @@ return packer.startup(function(use)
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
   use "lunarvim/colorschemes"
   use { "folke/tokyonight.nvim" }
-
+  use { "joshdick/onedark.vim" }
 
   -- tmux navigator
   use { "christoomey/vim-tmux-navigator" }
@@ -114,6 +114,8 @@ return packer.startup(function(use)
   use { 'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons' }
   use { 'moll/vim-bbye' }
 
+  -- Vim be good 
+  use { 'ThePrimeagen/vim-be-good' }
 
   if packer_bootstrap then
     require("packer").sync()

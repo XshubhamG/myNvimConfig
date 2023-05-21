@@ -25,9 +25,9 @@ keymap.set('n', '<leader>tn', ':tabn<CR>')
 keymap.set('n', '<leader>tp', ':tabp<CR>')
 
 -- Move text up and down
-keymap.set("v", "<A-Up>", ":m .-2<CR>==")
-keymap.set("v", "<A-Down>", ":m .+1<CR>==")
-keymap.set("v", "p", '"_dP')
+keymap.set("n", "<A-Up>", ":m .-2<CR>==")
+keymap.set("n", "<A-Down>", ":m .+1<CR>==")
+keymap.set("n", "p", '"_dP')
 
 -- plugins keymaps
 
@@ -44,8 +44,10 @@ keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>") -- list available 
 -- Null-LS keymap
 keymap.set('n', '<leader>s', ':lua vim.lsp.buf.format()<cr>')
 
-
-
+-- bufferline keymap
+keymap.set("n", "bp", "<cmd>bprevious<CR>")
+keymap.set("n", "bn", "<cmd>bnext<CR>")
+keymap.set("n", "bd", "<cmd>Bdelete<CR>")
 
 
 
