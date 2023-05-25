@@ -52,6 +52,8 @@ return packer.startup(function(use)
   use { "folke/tokyonight.nvim" }
   use { "joshdick/onedark.vim" }
   use { "rebelot/kanagawa.nvim" }
+  use { 'Mofiqul/dracula.nvim' }
+
   -- tmux navigator
   use { "christoomey/vim-tmux-navigator" }
 
@@ -117,8 +119,6 @@ return packer.startup(function(use)
   -- Vim be good 
   use { 'ThePrimeagen/vim-be-good' }
 
-  -- github copilot
-  use { 'github/copilot.vim' }
   if packer_bootstrap then
     require("packer").sync()
   end

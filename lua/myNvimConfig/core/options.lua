@@ -5,8 +5,8 @@ opt.relativenumber = true
 opt.number = true
 
 -- tabs & indentations
-opt.tabstop = 2
-opt.shiftwidth = 2
+opt.tabstop = 4
+opt.shiftwidth = 4
 opt.expandtab = true
 opt.autoindent = true
 
@@ -33,7 +33,7 @@ opt.splitright = true
 opt.splitbelow = true
 
 -- transparent background
--- vim.api.nvim_set_hl(0, 'Normal',{bg = 'none'})
+vim.api.nvim_set_hl(0, 'Normal',{bg = 'none'})
 
 -- terminal
 opt.shell='pwsh'
