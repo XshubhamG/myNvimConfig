@@ -47,7 +47,6 @@ return packer.startup(function(use)
 
   -- colorscheme
   use { "bluz71/vim-nightfly-colors", as = "nightfly" }
-  -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
   use "lunarvim/colorschemes"
   use { "folke/tokyonight.nvim" }
   use { "joshdick/onedark.vim" }

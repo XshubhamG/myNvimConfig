@@ -1,4 +1,4 @@
-print('hello')
+print('Welcome to Vim')
 require('myNvimConfig.plugin-setup')
 
 -- core nvim setup
