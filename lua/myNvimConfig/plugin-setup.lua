@@ -52,6 +52,8 @@ return packer.startup(function(use)
   use { "joshdick/onedark.vim" }
   use { "rebelot/kanagawa.nvim" }
   use { 'Mofiqul/dracula.nvim' }
+  use { 'shaunsingh/nord.nvim' }
+
 
   -- tmux navigator
   use { "christoomey/vim-tmux-navigator" }
@@ -93,6 +95,7 @@ return packer.startup(function(use)
   use { 'L3MON4D3/LuaSnip' }
   use { 'rafamadriz/friendly-snippets' } -- a bunch of snippets to use
 
+
   -- Autopairs
   use { 'windwp/nvim-autopairs' }
 
@@ -111,12 +114,15 @@ return packer.startup(function(use)
   }
   use { 'jose-elias-alvarez/null-ls.nvim' } -- for Linters and formatter
 
+
   -- using packer.nvim
   use { 'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons' }
   use { 'moll/vim-bbye' }
 
+
   -- Vim be good 
   use { 'ThePrimeagen/vim-be-good' }
+
 
   if packer_bootstrap then
     require("packer").sync()
