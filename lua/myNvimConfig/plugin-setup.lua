@@ -53,7 +53,7 @@ return packer.startup(function(use)
   use { "rebelot/kanagawa.nvim" }
   use { 'Mofiqul/dracula.nvim' }
   use { 'shaunsingh/nord.nvim' }
-
+  use { 'ellisonleao/gruvbox.nvim' }
 
   -- tmux navigator
   use { "christoomey/vim-tmux-navigator" }

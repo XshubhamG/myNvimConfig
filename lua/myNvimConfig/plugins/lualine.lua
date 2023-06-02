@@ -5,7 +5,7 @@ end
 
 
 -- get lualine nightfly theme
-local lualine_nightfly = require("lualine.themes.nord")
+local lualine_nightfly = require("lualine.themes.gruvbox")
 
 -- new colors for theme
 local new_colors = {
