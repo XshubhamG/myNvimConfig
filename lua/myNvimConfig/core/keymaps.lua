@@ -49,7 +49,8 @@ keymap.set("n", "bp", "<cmd>bprevious<CR>")
 keymap.set("n", "bn", "<cmd>bnext<CR>")
 keymap.set("n", "bd", "<cmd>Bdelete<CR>")
 
-
+-- dashboard 
+vim.g.dashboard_default_executive = "telescope"
 
 
 
