@@ -55,7 +55,7 @@ return packer.startup(function(use)
   use { 'shaunsingh/nord.nvim' }
   use { 'ellisonleao/gruvbox.nvim' }
   use{ 'rose-pine/neovim' }
- 
+
   -- tmux navigator
   use { "christoomey/vim-tmux-navigator" }
 
@@ -124,8 +124,6 @@ return packer.startup(function(use)
   -- Vim be good 
   use { 'ThePrimeagen/vim-be-good' }
 
-  -- dashboard 
-  use { 'glepnir/dashboard-nvim' }
 
   if packer_bootstrap then
     require("packer").sync()

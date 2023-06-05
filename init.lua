@@ -17,4 +17,3 @@ require('myNvimConfig.plugins.tree-sitter')
 require('myNvimConfig.plugins.autopairs')
 require('myNvimConfig.plugins.null-ls')
 require('myNvimConfig.plugins.bufferline')
-
