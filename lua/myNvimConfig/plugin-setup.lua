@@ -54,7 +54,8 @@ return packer.startup(function(use)
   use { 'Mofiqul/dracula.nvim' }
   use { 'shaunsingh/nord.nvim' }
   use { 'ellisonleao/gruvbox.nvim' }
-  use{ 'rose-pine/neovim' }
+  use { 'rose-pine/neovim' }
+  use { "EdenEast/nightfox.nvim" } -- Packer  
 
   -- tmux navigator
   use { "christoomey/vim-tmux-navigator" }
