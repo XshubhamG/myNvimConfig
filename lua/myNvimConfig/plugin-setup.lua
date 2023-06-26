@@ -125,6 +125,9 @@ return packer.startup(function(use)
   -- Vim be good 
   use { 'ThePrimeagen/vim-be-good' }
 
+  -- Indentation  
+  use { "lukas-reineke/indent-blankline.nvim" }
+
 
   if packer_bootstrap then
     require("packer").sync()
