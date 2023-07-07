@@ -46,8 +46,8 @@ keymap.set('n', '<leader>s', ':lua vim.lsp.buf.format()<cr>')
 
 -- bufferline keymap
 keymap.set("n", "bp", "<cmd>bprevious<CR>")
-keymap.set("n", "bn", "<cmd>bnext<CR>")
-keymap.set("n", "bd", "<cmd>Bdelete<CR>")
+keymap.set("n", "<tab>", "<cmd>bnext<CR>")
+keymap.set("n", "<leader>x", "<cmd>Bdelete<CR>")
 
 -- tmux navigator
 keymap.set("n", "<C-h>",":TmuxNavigateLeft<cr>")

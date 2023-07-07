@@ -5,7 +5,7 @@ end
 
 
 -- get lualine nightfly theme
-local lualine_nightfly = require("lualine.themes.tokyonight")
+local lualine_nightfly = require("lualine.themes.everblush")
 
 -- new colors for theme
 local new_colors = {

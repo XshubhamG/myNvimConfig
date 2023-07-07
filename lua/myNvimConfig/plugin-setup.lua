@@ -55,7 +55,10 @@ return packer.startup(function(use)
   use { 'shaunsingh/nord.nvim' }
   use { 'ellisonleao/gruvbox.nvim' }
   use { 'rose-pine/neovim' }
-  use { "EdenEast/nightfox.nvim" } -- Packer  
+  use { "EdenEast/nightfox.nvim" }
+  use { 'tiagovla/tokyodark.nvim' }
+  use { "catppuccin/nvim", as = "catppuccin" }
+  use { 'Everblush/nvim', as = 'everblush' }
 
   -- tmux navigator
   use { "christoomey/vim-tmux-navigator" }
