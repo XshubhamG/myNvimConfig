@@ -14,7 +14,7 @@ bufferline.setup {
     -- and so changing this is NOT recommended, this is intended
     -- as an escape hatch for people who cannot bear it for whatever reason
 	indicator_icon = nil,
-    indicator = { style = "icon", icon = ""},
+    indicator = { style = "icon", icon = "‖"},
     -- buffer_close_icon = "",
     buffer_close_icon = '',
     modified_icon = "●",
@@ -40,7 +40,7 @@ bufferline.setup {
     -- diagnostics_indicator = function(count, level, diagnostics_dict, context)
     --   return "("..count..")"
     -- end,
-    -- NOTE: this will be called a lot so don't do any heavy processing here
+   -- NOTE: this will be called a lot so don't do any heavy processing here
     -- custom_filter = function(buf_number)
     --   -- filter out filetypes you don't want to see
     --   if vim.bo[buf_number].filetype ~= "<i-dont-want-to-see-this>" then
@@ -64,7 +64,7 @@ bufferline.setup {
     persist_buffer_sort = true, -- whether or not custom sorted buffers should persist
     -- can also be a table containing 2 custom separators
     -- [focused and unfocused]. eg: { '|', '|' }
-    separator_style = "thick", -- | "thick" | "thin" | { 'any', 'any' },
+    separator_style = "thin", -- | "thick" | "thin" | { 'any', 'any' },
     enforce_regular_tabs = true,
     always_show_bufferline = true,
     -- sort_by = 'id' | 'extension' | 'relative_directory' | 'directory' | 'tabs' | function(buffer_a, buffer_b)

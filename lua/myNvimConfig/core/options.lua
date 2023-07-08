@@ -32,8 +32,8 @@ opt.clipboard:prepend("unnamed")
 opt.splitright = true
 opt.splitbelow = true
 
--- transparent background
-vim.api.nvim_set_hl(0, 'Normal',{bg = 'none'})
+-- -- transparent background
+-- vim.api.nvim_set_hl(0, 'Normal',{bg = 'none'})
 
 -- terminal
 opt.shell='pwsh'

@@ -4,4 +4,5 @@ if not status then
   return
 end
 
-
+vim.g.tokyodark_enable_italic_comment = false,
+vim.g.tokyodark_enable_italic  == false,

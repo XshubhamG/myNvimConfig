@@ -19,4 +19,3 @@ require('myNvimConfig.plugins.null-ls')
 require('myNvimConfig.plugins.bufferline')
 require("myNvimConfig.plugins.indentation")
 
-
